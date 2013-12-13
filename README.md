@@ -9,8 +9,8 @@ Just include css.js and pass a string to CSS();  The string will be interpreted 
 
 Example use:
 
-    CSS([
-      '.defaultText { color: #666; font-weight: 700; letter-spacing:1px;}',
+    Widget.CSS([
+      '.defaultText { color: #666; }',
       '.defaultText:focus { color: #111; }'
     ].join(' '));
 

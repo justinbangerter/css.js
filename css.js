@@ -1,4 +1,5 @@
-CSS = (function() {
+if('object' !== typeof Widget) { Widget = {}; }
+Widget.CSS = (function() {
   var head = document.getElementsByTagName('head')[0];
   return function (css){
     var style = document.createElement('style');
